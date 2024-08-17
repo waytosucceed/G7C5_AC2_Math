@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Activity 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Reset and base styles */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.6;
+        background-color: #f0f3f5; /* Light gray */
+        color: #333; /* Dark gray */
+        margin: 0;
+      }
+
+      .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #bbe9ff; /* Light blue */
+        /* padding: 20px; */
+      }
+
+      .header {
+        width: 100%;
+        height: 90px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        padding: 20px;
+        display: flex;
+      }
+
+      .company-logo {
+        height: 100%;
+      }
+
+      .content-container {
+        margin-top: 1rem;
+        width: 100%;
+        max-width: 800px;
+        background-color: #ffffff; /* White */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        border-radius: 8px; /* Rounded corners */
+
+        img {
+          /* max-width: 100%; */
+          height: 300px;
+          display: block;
+          margin: 1rem auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+      }
+
+      .lesson-title {
+        font-size: 2rem;
+        font-weight: 700;
+        color: #333; /* Dark gray */
+        margin-bottom: 1rem;
+        text-align: center;
+        text-decoration: underline; /* Underline style */
+      }
+
+      .probing-question {
+        margin-top: 1.5rem;
+        background-color: #f0f8ff; /* Light blue */
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      .probing-question div {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #444; /* Dark gray */
+        margin-bottom: 5px;
+      }
+
+      .probing-question p {
+        color: #666; /* Medium gray */
+      }
+
+      h2,
+      h3,
+      h4 {
+        color: #333; /* Dark gray */
+        margin-top: 1.5rem;
+        font-weight: bold; /* Bold font for all headings */
+      }
+
+      .learn-about {
+        background-color: palegreen;
+        border-radius: 1rem;
+        text-align: left;
+        margin: 1rem;
+        padding: 1rem 0;
+        li {
+          list-style-position: inside;
+          padding-left: 1rem;
+        }
+      }
+
+      p,
+      li {
+        color: #555; /* Medium gray */
+      }
+
+      ol,
+      ul {
+        margin-bottom: 1.5rem;
+        padding-left: 20px;
+      }
+
+      hr {
+        border: none; /* Remove default border */
+        height: 2px; /* Set the height of the horizontal rule */
+        background-color: palevioletred; /* Color of the rule */
+      }
+      @media (max-width: 768px) {
+        .company-logo {
+          height: 75%;
+        }
+      }
+      table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 4px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <img src="./assests/logo/logo1.png" alt="logo" class="company-logo" />
+        <img src="./assests/logo/logo2.png" alt="logo" class="company-logo" />
+      </div>
+
+      <div class="content-container">
+        <div class="lesson-title">Fractions</div>
+
+        <div class="lesson-content">
+          <div>
+            <p>
+              A <b>fraction</b> represents a part of a whole or a division of something into equal parts. 
+<br><br>
+"Fraction" word traces its origin from the root Latin word <b> "Fractus"</b>, which means <b>"broken"</b>.
+
+<br><br>
+<b>Parts of Fraction: </b><br>
+Consider a/b  as a fraction, the upper part (a) represents the numerator and the lower part (b) represents the denominator. 
+<br><br>
+A fractional bar (—) is a horizontal line that separates the numerator and denominator in a fraction, such as 107(numerator = 10, denominator = 7). 
+
+            </p>
+            
+            
+
+            <h3><u>Types of fractions</u></h3>
+            <ol>
+              <li><b>Proper Fractions</b>:  A proper fraction is one where the numerator (top number) is less than the denominator (bottom number): "numerator < denominator". 
+                  <br><b>Example:</b> 2/5
+              </li>
+              <li><b>Improper fractions</b>: An improper fraction is one where the numerator equals or exceeds the denominator.“numerator > denominator”
+                <br><b>Example:</b> 11/7
+              </li>
+              <li><b>Like Fractions</b>: Like fractions, as the name implies, are fractions that are similar or identical. Alternatively, these are the fractions with the same denominator.
+                <br><b>Example:</b> 3/10 and 7/10.
+              </li>
+              <li><b>Unlike Fractions</b>: Unlike fractions are ones that are dissimilar. Fractions with distinct denominators.
+                <br><b>Example:</b> 8/5 and 3/7.
+                
+              </li>
+              <li><b>Unit Fractions</b>: When the numerator equals one, the fraction is referred to as a unit.
+                <br><b>Example:</b> 1/6
+              </li>
+            </ol>
+            <h3>Comparing Like  fractions :</h3>
+            <p>
+              When comparing fractions with the same denominator, it is easier to identify which fraction is greater or smaller. 
+<br><br>
+After determining whether the denominators are the same, we can simply search for the fraction with the larger numerator. 
+<br><br>
+If the numerators and denominators are equal, so are the fractions.
+<br><br>
+<b>For example</b>, let us compare 6/17  and 16/17 
+
+            </p>
+            <ul>
+              <li><b>Step 1:</b>Check the denominators of the provided fractions: 
+                6/17  and 16/17 . The denominators are identical.</li>
+              <li><b>Step 2:</b>Now, compare the numerators. Upon comparing, we observe that 16 > 6.</li>
+              <li><b>Step 3:</b>The fraction with the greater numerator is the larger one. Hence, 
+                6/17  < 16/17</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
